@@ -1,0 +1,33 @@
+= Beginning VHDL: A Hands-on Approach to Digital Design
+:icons: font
+Tim Shuck
+{localdate}
+:icon-set: pf
+:doctype: book
+:sectanchors:
+:sectnums:
+:linenums:
+:chapter-caption:
+:xrefstyle: short
+:source-highlighter: pygments
+// :source-highlighter: rouge
+:pygments-style: default
+:imagesdir: ./img
+:table-stripes: even
+:pdf-page-layout: portrait
+// :pdf-page-margin: [1in, 0.8in]
+:toc:
+:pdf-style: ../theme/custom-theme.yml
+:toclevels: 5
+// :stem: latexmath
+
+:stem:
+:title-page-background-image: ./img/title-bg.jpg
+
+
+
+
+include::introduction.adoc[leveloffset=+1]
+
+include::ch1.adoc[leveloffset=+1]
+// include::ch1.adoc[leveloffset=+1]

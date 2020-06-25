@@ -1,0 +1,8 @@
+
+# Introduction
+
+Typically used in conjunction with programmable logic, VHDL, or VHSIC Hardware Description Language, is a text-based method of describing electronic hardware.
+
+VHDL began as a project  under the directive of the U.S. Department of Defense as a means to document the behavior of electronic devices. It wasn't long after that simulators were developed to allow one to simulate the behavior of the descriptions contained in VHDL files. 
+
+VHDL was designed around the same time as the Ada programming language. The Ada programming language was also developed by the U.S. DoD as a replacement for the various languages being used and lent much of its syntax to the VHDL language in order to mitigate drastically differing syntax among users that might have to learn both.

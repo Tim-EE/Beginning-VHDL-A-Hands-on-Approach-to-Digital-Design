@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="98.408714mm"
+   height="64.318542mm"
+   viewBox="0 0 98.408714 64.318541"
+   version="1.1"
+   id="svg1645"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="model_blackbox.svg">
+  <defs
+     id="defs1639">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4925"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4923"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4584"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4865"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4863"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4578"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="203.90461"
+     inkscape:cy="153.81499"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g874"
+     showgrid="false"
+     fit-margin-top="0.3"
+     fit-margin-left="0.3"
+     fit-margin-right="0.3"
+     fit-margin-bottom="0.3"
+     inkscape:window-width="1120"
+     inkscape:window-height="629"
+     inkscape:window-x="140"
+     inkscape:window-y="215"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1642">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38.189626,-20.558645)">
+    <g
+       id="g874"
+       transform="matrix(1.8355451,0,0,1.8355451,-32.022867,-70.668058)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.93699998;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4809"
+         width="25.000002"
+         height="25.000002"
+         x="66.232437"
+         y="59.108688"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.93699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 66.232436,65.35869 h -9.375"
+         id="path4812"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4814"
+         d="m 66.232436,77.85869 h -9.375"
+         style="fill:none;stroke:#000000;stroke-width:0.93700004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.93699998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 56.857436,71.60869 h 9.375"
+         id="path4816"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+         x="38.107437"
+         y="71.608688"
+         id="text4868"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan4870"
+           x="38.107437"
+           y="71.608688"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff">ports</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#0000ff;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 49.817074,70.985736 -3.584634,-0.002"
+         id="path4872"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#0000ff;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 56.857438,80.983691 c -9.374999,-2e-6 -9.374999,-18.750004 0,-18.750001"
+         id="path4866"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#cccccc;stroke:#000000;stroke-width:0.39421514px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 69.081486,73.71226 c -3.49206,1.74603 0.87301,-9.60318 3.49207,-6.11111 -2.61906,-3.49207 6.98412,-6.11111 8.73015,-1.74603 -1.74603,-4.36508 6.11111,-3.49207 4.36508,0.87301 1.74603,-4.36508 6.98413,6.98413 1.74603,6.98413 5.2381,0 -4.36508,7.85714 -6.11111,4.36508 1.74603,3.49206 -9.60317,2.61904 -7.85714,-1.74603 -1.74603,4.36507 -7.85714,-0.87302 -4.36508,-2.61905 z"
+         id="path3995"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="78.694405"
+         y="70.347794"
+         id="text4789"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan4791"
+           x="78.694405"
+           y="70.347794"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif">Internal</tspan><tspan
+           sodipodi:role="line"
+           x="78.694405"
+           y="74.701912"
+           id="tspan4793"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif">Logic</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path61"
+         d="m 68.393538,53.332915 0.577614,5.333111"
+         style="fill:none;stroke:#0000ff;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4925)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1"
+         x="62.575489"
+         y="52.436573"
+         id="text4868-3"
+         inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\module_blackbox.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan4870-6"
+           x="62.575489"
+           y="52.436573"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;stroke-width:1">Device</tspan></text>
+    </g>
+  </g>
+</svg>

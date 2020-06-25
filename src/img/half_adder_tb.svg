@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="95.243683mm"
+   height="76.628357mm"
+   viewBox="0 0 95.243683 76.628358"
+   version="1.1"
+   id="svg5361"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="half_adder_tb.svg">
+  <defs
+     id="defs5355">
+    <clipPath
+       id="clipPath5960"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="393.87503"
+         x="131.25"
+         height="118.75001"
+         width="134.375"
+         id="rect5962"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.28200001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    </clipPath>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mendo"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mendo">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6450" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1MendYq"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1MendYq">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff00ff;fill-rule:evenodd;stroke:#ff00ff;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path11646" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5825"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mendo">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5823" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5829"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mendo">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5827" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5833"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1MendYq">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff00ff;fill-rule:evenodd;stroke:#ff00ff;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5831" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5466" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6295"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6293" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6299"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6297" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6303"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6301" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="201.56065"
+     inkscape:cy="139.65991"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="723"
+     inkscape:window-height="417"
+     inkscape:window-x="86"
+     inkscape:window-y="60"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5358">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.143647,-58.158519)">
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       y="62.643372"
+       x="63.412148"
+       height="71.875008"
+       width="94.70668"
+       id="rect15423"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f2f2f2;stroke:#000000;stroke-width:0.53700006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.61099998, 1.61099998;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;stroke:#000000;stroke-width:0.537;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect15425"
+       width="44.375008"
+       height="50.625"
+       x="87.787109"
+       y="74.518349"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.69815207px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55817932;"
+       x="94.655609"
+       y="73.521523"
+       id="text981"><tspan
+         sodipodi:role="line"
+         x="94.655609"
+         y="73.521523"
+         id="tspan979"
+         style="stroke-width:0.55817932;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="94.655609"
+           y="73.521523"
+           style="font-size:3.95111132px;line-height:1.25;stroke-width:0.55817932;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan977">Half Adder</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50033164"
+       x="122.22406"
+       y="89.409904"
+       id="text996"><tspan
+         sodipodi:role="line"
+         x="122.22406"
+         y="89.409904"
+         id="tspan994"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.50033164"><tspan
+           x="122.22406"
+           y="89.409904"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666654px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.50033164"
+           id="tspan992">Sum</tspan></tspan></text>
+    <rect
+       y="82.018349"
+       x="100.91212"
+       height="16.875002"
+       width="19.375017"
+       id="rect15443"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#0000ff;stroke-width:0.53799999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.69815207px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.55817932;"
+       x="100.9056"
+       y="81.609741"
+       id="text1062"><tspan
+         sodipodi:role="line"
+         x="100.9056"
+         y="81.609741"
+         id="tspan1060"
+         style="stroke-width:0.55817932;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="100.9056"
+           y="81.609741"
+           style="font-size:3.38666677px;line-height:1.25;fill:#0000ff;stroke-width:0.55817932;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1058">sumGate</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="101.54102"
+       y="87.24691"
+       id="text1020"><tspan
+         sodipodi:role="line"
+         x="101.54102"
+         y="87.24691"
+         id="tspan1018"
+         style="stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="101.54102"
+           y="87.24691"
+           style="font-size:3.38666654px;line-height:1.25;fill:#0000ff;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1016">A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="101.54102"
+       y="92.012558"
+       id="text1026"><tspan
+         sodipodi:role="line"
+         x="101.54102"
+         y="92.012558"
+         id="tspan1024"
+         style="stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="101.54102"
+           y="92.012558"
+           style="font-size:3.38666654px;line-height:1.25;fill:#0000ff;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1022">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="117.16603"
+       y="89.74691"
+       id="text1002"><tspan
+         sodipodi:role="line"
+         x="117.16603"
+         y="89.74691"
+         id="tspan1000"
+         style="stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="117.16603"
+           y="89.74691"
+           style="font-size:3.38666654px;line-height:1.25;fill:#0000ff;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan998">Y</tspan></tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path15479"
+       d="m 106.92104,107.36911 v 8.39904 l 4.25003,2.1e-4 c 6.37499,3e-4 6.37499,-8.39872 0,-8.39904 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.93749994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path15481"
+       d="m 116.1294,111.61932 19.1577,-2e-4"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.93749994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path15483"
+       d="m 98.421046,88.643988 -0.06423,20.850332 h 8.564224"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.93749994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path15485"
+       d="m 91.337687,93.893352 v 19.850768 l 15.583353,2.1e-4"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.93749994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path15489"
+       d="m 107.37943,85.926425 c 3.74999,2.386366 3.74999,7.159091 0,9.545456 5.62501,0 7.50001,0 9.375,-4.772731 -1.87499,-4.772725 -3.74999,-4.772725 -9.375,-4.772725 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.93749994;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path15491"
+       d="m 116.75443,90.69915 h 18.53269"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.93749994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path15493"
+       d="M 79.037128,88.312787 H 107.37943"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.93749994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path15495"
+       d="M 79.037128,93.085512 H 107.37943"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.93749994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path15497"
+       d="m 105.50443,86.721878 c 3.74999,1.988636 3.74999,5.965908 0,7.954544"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.85581684;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 91.985677,93.173373 a 0.62749687,0.62749687 0 0 1 -0.627502,0.627491 0.62749687,0.62749687 0 0 1 -0.627499,-0.627491 0.62749687,0.62749687 0 0 1 0.627499,-0.627499 0.62749687,0.62749687 0 0 1 0.627502,0.627499 z"
+       id="path15499"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.93749881;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       d="m 98.991346,88.224053 a 0.62749687,0.62749687 0 0 1 -0.627499,0.627489 0.62749687,0.62749687 0 0 1 -0.627502,-0.627489 0.62749687,0.62749687 0 0 1 0.627502,-0.627501 0.62749687,0.62749687 0 0 1 0.627499,0.627501 z"
+       id="path15501"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.93749881;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="88.768806"
+       y="87.802696"
+       id="text1008"><tspan
+         sodipodi:role="line"
+         x="88.768806"
+         y="87.802696"
+         id="tspan1006"
+         style="stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="88.768806"
+           y="87.802696"
+           style="font-size:3.38666654px;line-height:1.25;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1004">A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="88.734901"
+       y="92.568375"
+       id="text1014"><tspan
+         sodipodi:role="line"
+         x="88.734901"
+         y="92.568375"
+         id="tspan1012"
+         style="stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="88.734901"
+           y="92.568375"
+           style="font-size:3.38666654px;line-height:1.25;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1010">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50033164"
+       x="122.20753"
+       y="110.39999"
+       id="text1038"><tspan
+         sodipodi:role="line"
+         x="122.20753"
+         y="110.39999"
+         id="tspan1036"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.50033164"><tspan
+           x="122.20753"
+           y="110.39999"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666654px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.50033164"
+           id="tspan1034">Carry</tspan></tspan></text>
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#0000ff;stroke-width:0.53799999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect15527"
+       width="19.375017"
+       height="16.875002"
+       x="100.91212"
+       y="103.80625" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.69815207px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.55817932;"
+       x="100.9056"
+       y="103.39762"
+       id="text1056"><tspan
+         sodipodi:role="line"
+         x="100.9056"
+         y="103.39762"
+         id="tspan1054"
+         style="stroke-width:0.55817932;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="100.9056"
+           y="103.39762"
+           style="font-size:3.38666677px;line-height:1.25;fill:#0000ff;stroke-width:0.55817932;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1052">carryGate</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="101.54102"
+       y="108.80943"
+       id="text1050"><tspan
+         sodipodi:role="line"
+         x="101.54102"
+         y="108.80943"
+         id="tspan1048"
+         style="stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="101.54102"
+           y="108.80943"
+           style="font-size:3.38666654px;line-height:1.25;fill:#0000ff;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1046">A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="101.54102"
+       y="113.26257"
+       id="text1044"><tspan
+         sodipodi:role="line"
+         x="101.54102"
+         y="113.26257"
+         id="tspan1042"
+         style="stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="101.54102"
+           y="113.26257"
+           style="font-size:3.38666654px;line-height:1.25;fill:#0000ff;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1040">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="117.16603"
+       y="110.99692"
+       id="text1032"><tspan
+         sodipodi:role="line"
+         x="117.16603"
+         y="110.99692"
+         id="tspan1030"
+         style="stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="117.16603"
+           y="110.99692"
+           style="font-size:3.38666654px;line-height:1.25;fill:#0000ff;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan1028">Y</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.69815207px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55817932;"
+       x="63.40559"
+       y="61.021523"
+       id="text975"><tspan
+         sodipodi:role="line"
+         x="63.40559"
+         y="61.021523"
+         id="tspan973"
+         style="stroke-width:0.55817932;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="63.40559"
+           y="61.021523"
+           style="font-size:3.95111132px;line-height:1.25;stroke-width:0.55817932;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan971">Testbench</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;"
+       x="65.287117"
+       y="94.518349"
+       id="text5448-9"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5450-8"
+         x="65.287117"
+         y="94.518349"
+         style="font-size:3.95111108px;line-height:1.25;stroke-width:1;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">tb_B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;"
+       x="65.287117"
+       y="89.518349"
+       id="text5908-4"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan5910-1"
+         x="65.287117"
+         y="89.518349"
+         style="font-size:3.95111108px;line-height:1.25;stroke-width:1;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">tb_A</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5452-9"
+       d="m 74.037116,88.268353 c 3.75,0 3.75,0 3.75,0"
+       style="fill:none;stroke:#000000;stroke-width:0.28200001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28200001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 74.037116,93.110632 c 3.75,0 3.75,0 3.75,0"
+       id="path15620"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       id="text15622"
+       y="112.77091"
+       x="140.91212"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="font-size:3.95111108px;line-height:1.25;stroke-width:1;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         y="112.77091"
+         x="140.91212"
+         id="tspan15624"
+         sodipodi:role="line">tb_Carry</tspan></text>
+    <text
+       id="text15626"
+       y="92.018349"
+       x="140.91212"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="font-size:3.95111108px;line-height:1.25;stroke-width:1;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         y="92.018349"
+         x="140.91212"
+         id="tspan15628"
+         sodipodi:role="line">tb_Sum</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.28200001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 136.2333,90.768353 c 3.75,0 3.75,0 3.75,0"
+       id="path15630"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path15632"
+       d="m 136.2333,111.63476 c 3.75,0 3.75,0 3.75,0"
+       style="fill:none;stroke:#000000;stroke-width:0.28200001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_tb.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>

@@ -1,0 +1,493 @@
+# VHDL Syntax Basics
+
+## Introduction
+
+A digital system can be described by its external connections and its behavior. In other words, by describing the interface of a device and how that device uses inputs to derive outputs (its behavior), we can describe the functionality of a given device. This ability to describe the functionality of a digital device allows for the creation of a simulator that can simulate the interaction of many devices (modeled).
+
+.A blackbox entity can be used to describe the functionality of a device.
+[#fig:model_blackbox,,pdfwidth=2in]
+image::model_blackbox.svg[Black Box Model,50%]
+
+If we define a module as a device with internal behavior and external ports (connections), we can represent a module as a black box with some connections to the world outside of the module.
+
+
+If we describe this module in VHDL-speak, we would say that a module has an **entity** and an **architecture**.
+
+The **entity** portion of the model describes the connections to the module - how many inputs/outputs, what kind of connection, etc. The **architecture**, on the other hand, describes the internal logic of the device - given a set of input values, what should the output(s) be?
+
+
+.A VHDL model is comprised of an **entity** (how it connects to the outside world) and the **architecture** (the internal behavior of the device).
+[#fig:model_entity_architecture,pdfwidth=4in]
+image::model_entity_architecture.svg[Entity and Architectures of a Model,80%]
+
+
+## A Simple Example to Explain Some Basics
+Let's take a look at an example that should help us to get a practical understanding of what VHDL is and does.
+
+Imagine that we take a circuit with a given truth table, <<tab:and_truth>>:
+
+.The truth table for an AND function.
+[.center%header%autowidth]
+[#tab:and_truth,reftext='{table-caption} {chapter-number}.{counter:table-refnum}']
+[caption="Table {chapter-number}.{table-refnum}: "]
+// [width=20%,options="header"]
+|=======
+| A  | B  | Y
+| 0  | 0  | 0
+| 0  | 1  | 0
+| 1  | 0  | 0
+| 1  | 1  | 1
+|=======
+
+
+We can represent the model of this circuit as a box with some inputs and outputs as before, but we will define the internal logic so as to implement the truth table, where A and B are inputs and Y is the output.
+
+.The architecture for this device implements the truth table, the entity specifies which signals are inputs (A/B) and which are outputs (Y).
+[#fig:model_logic,pdfwidth=3in]
+image::model_logic.svg[Model Logic,80%]
+
+
+NOTE: Inputs are most often placed to the left side of a model and outputs are typically placed on the right of the model.
+
+If you have not noticed, this truth table is that of an AND gate. This means that our architecture logic must simply implement and AND operation between `A` and `B`, or, expressed mathematically, latexmath:[$Y=A \cdot B$].
+
+.This model implements the AND operation.
+[#fig:model_and,pdfwidth=4in]
+image::model_and.svg[Model AND,80%]
+
+
+While this AND gate may be a fairly trivial example, it serves to show some important aspects to understand VHDL. Let us look at the overall VHDL code for this circuit and dissect it accordingly in the following section.
+
+[source,vhdl,linenums]
+.`ANDGATE.vhd`
+----
+-- (this is a VHDL comment)
+
+-- import std_logic from the IEEE library
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity ANDGATE is
+    port (
+        Y : out std_logic;
+        A : in std_logic;
+        B : in std_logic -- <=no semicolon
+    );
+end entity ANDGATE;
+
+-- this is the architecture
+architecture and1 of ANDGATE is
+begin
+    Y <= A and B;
+end architecture and1;
+----
+
+NOTE: You will notice that each statement has a semicolon after it. Note, however, that the last entry in the port section does not have a semicolon after it -- it is taken care of by the closing of the port declaration.
+
+### Entity, architecture, and libraries, Oh my!
+Let's take a closer look at three of the major pieces of a VHDL file:
+
+* entity
+* architecture
+* libraries and packages
+
+.The three parts of a VHDL file: entity, architecture, and library inclusions.
+[#fig:vhdl_sections,pdfwidth=5in]
+image::vhdl_sections.svg[Model AND,80%]
+
+#### Entity
+The **entity** describes the way the component interfaces with the outside world. A component can only ever have one entity -- it tells other components how many connections and what kind of connection a given device has.
+
+The general form of the entity declaration is as follows:
+
+[source,vhdl]
+----
+entity <entity_name> is
+    generic (
+        -- Generics Declarations - we'll talk more about these later
+    );
+    port (
+        <signal_name_1> : <mode> <signal_type>;
+        <signal_name_2> : <mode> <signal_type>;
+        ...
+        <signal_name_n> : <mode> <signal_type>
+    );
+end entity [<entity_name>];
+----
+
+If we compare this formal definition to the AND gate we created earlier, we can see that there are three ports declared in the AND gate's entity declaration: `Y`, `A`, and `B`.
+
+The ports `A` and `B` are inputs, `Y` is an output, and all are of type `std_logic`:
+
+[source,vhdl,linenums,start=9]
+----
+Y : out std_logic;
+A : in  std_logic;
+B : in  std_logic -- <=no semicolon
+----
+
+We can also see in <<fig:model_entity_architecture_names>> that the entity is named "ANDGATE".
+
+.A model contains the name of the entity ('ANDGATE') and the name of one, or more, architectures ('and1').
+[#fig:model_entity_architecture_names,pdfwidth=4.2in]
+image::model_names.svg[Model names,80%]
+
+
+##### Port Modes
+VHDL requires that ports in an entity have a mode, or direction, associated with them. There are 4 modes that a port can have, seen in <<tab:vhdl_port_directions>>:
+
+// [reftext='{table-caption} {chapter.level}.{counter:table-refnum}']
+// [caption="Table {chapter-number}.{table-refnum}: "]
+// [width=70%,options="header"]
+// [cols="2,8"]
+// [.center]
+.Entity port modes.
+[#tab:vhdl_port_directions,width=70%,options="header",cols="2,8"]
+|=======
+| Mode     | Description
+| *in*     | the signal is an input to the module
+| *out*    | the signal is an output from the module
+| *buffer* | an output that can be read internal to the module*
+| *inout*  | the signal can be both input and output; bidirectional
+|=======
+
+NOTE: * *buffer* mode has limited, often noncompliant, support across available tools. Use mode **inout** instead.
+
+While the logic of an **out** port can be modified within a model, the signal value cannot be read within the model's architecture. We will look at how to work around this drawback shortly.
+
+#### Architecture
+If the entity is where the external connections are defined, then the architecture is where the internal logic is defined.
+
+The architecture defines what happens to the signals specified in the entity as well as any intermediate signals that you may need to create.
+
+The architecture has the general form of:
+
+:!linenums:
+[source,vhdl]
+----
+architecture of <name_of_the_entity> is
+    -- Declarations - we'll talk more about these later
+begin
+
+    -- define the behavior of the entity here
+
+
+end architecture <architecture_name>;
+----
+:linenums:
+
+While a model can only have one definition of its external interface (its entity section), a model can have multiple architectures (internal logic definitions), though only one is ever used at a given time during simulation or synthesis (the process of implementing the VHDL in hardware).
+
+NOTE: Each time a copy of a component is used in a design, that is, the component is **instantiated**, a different architecture can be used.
+
+Because there can be multiple architectures, it is essential to specify the entity an architecture will use (as seen on line 16):
+
+[source,vhdl,linenums,start=16]
+----
+architecture and1 of ANDGATE is
+begin
+    Y <= A and B;
+end architecture and1;
+----
+
+The architecture requires:
+
+* a unique name
+* the name of the entity describing its external connections
+* the `begin` keyword
+* the `end` of the architecture.
+
+In our example, the architecture is named `and1` and the referenced entity is `ANDGATE`. We closed the architecture with the line "`end architecture and1;`" -- making sure to specify the name of the architecture we are closing.
+
+In this architecture, the internal logic of the model is defined on line 18:
+
+[source,vhdl,linenums,start=18]
+----
+Y <= A and B;
+----
+
+We have assigned `Y` to the logical AND of `A` and `B` using the 'and' operator keyword. The 'and' keyword performs the AND operation on the values to it's left and right in this case, `A` and `B`, meaning when both `A` and `B` are '1', the resulting value is '1', and is '0' otherwise. This value is then assigned to
+`Y`.
+
+NOTE: VHDL defines several basic, Boolean operations using the operators name spelled out (e.g. `and`, `or`, `xor`, etc.) See [VHDL Operators](VHDL Operators) for information
+
+#### Libraries and Packages
+At the beginning of our AND gate model, we see some stuff that appears to be referencing a library in the following code:
+
+[source,vhdl,linenums,start=3]
+----
+-- import std_logic from the IEEE library
+library IEEE;
+use IEEE.std_logic_1164.all;
+----
+
+This is, indeed, referencing a library -- the IEEE library. The IEEE library has many parts, each with a more specific purpose called **packages**. The IEEE library's `std_logic_1164` package contains a definition for the `std_logic` type we have used in our entity declaration for port types.
+
+NOTE: In general, libraries contain many packages. We specify which packages we want and what part of the package is needed for a given model (though we may often include all of the package for brevity).
+
+# Hierarchical Modeling: Putting things together
+
+## Introduction
+As you may already have found, modeling simple devices like an AND gate is not terribly interesting.
+
+In this section, we will look at how to combine models in hierarchical arrangements, or creating models that contain other models,  in order to produce more complicated circuits and how to simulate the models using what is called a testbench.
+
+## Combining Models
+
+Admittedly, the example we came up with in the previous section didn't really *do* anything. An AND gate is rarely useful by itself and must be combined with other devices to do something more interesting.
+
+.A half adder circuit.
+[#fig:half-adder,pdfwidth=6in]
+image::half_adder.svg[Half Adder]
+
+<<fig:half-adder>> shows a common, simple application where one might combine an AND gate and another gate (XOR) in order to implement another circuit--a half adder.
+
+A half adder has a sum and carry term. Easily enough, the sum term is 1 if the inputs are not equal--which is the XOR function, and the carry term is only 1 if A and B are 1, which corresponds to the AND function. As such, the half adder is comprised of an AND gate and an XOR gate, both of which share the same inputs.
+
+### Creating the XOR Model
+
+[source,vhdl,linenums]
+----
+-- import std_logic from the IEEE library
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity XORGATE is
+    port (
+        Y : out std_logic;
+        A : in std_logic;
+        B : in std_logic -- <=no semicolon
+    );
+end entity XORGATE;
+
+-- this is the architecture
+architecture xor1 of XORGATE is
+begin
+    Y <= A xor B;
+end architecture and1;
+----
+
+Take a moment and compare the XOR gate code to that of the AND gate we defined in the previous section. Notice that the entity names are different, yet they have the same port definitions -- this is because they are both two-input, one output gates. We could, however, have named the ports whatever we want, though it is a good idea to keep a common representation for similar devices for your own understanding.
+
+If we look at the architecture of the XOR gate, not much changes -- the architecture name, the entity name that the architecture is defining, and the assignment `Y <= A xor B;`.
+
+It is the `XOR` operation on line 16 that changes the behavior from the AND gate model to implement the XOR function.
+
+### Creating the Half Adder Model
+Now that we have both the XOR and AND models created, we need to combine them to form the half adder model -- this is where the hierarchical modeling comes in to play.
+
+[source,vhdl,linenums]
+----
+-- import std_logic from the IEEE library
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity HALF_ADDER is
+    port (
+        Sum : out std_logic;
+        Carry : out std_logic;
+        A : in std_logic;
+        B : in std_logic -- <=no semicolon
+    );
+end entity HALF_ADDER;
+
+-- this is the architecture
+architecture default of HALF_ADDER is
+    -- here we define the ANDGATE component - essentially just the entity information
+    component ANDGATE is
+        port (
+            Y : out std_logic;
+            A : in std_logic;
+            B : in std_logic
+        );
+    end component;
+
+	-- here we define the XORGATE component - essentially just the entity information
+	component XORGATE is
+        port (
+            Y : out std_logic;
+            A : in std_logic;
+            B : in std_logic
+        );
+    end component;
+begin
+
+    -- instantiate a 'XORGATE' model and call this instance 'sumGate'
+    sumGate: XORGATE
+        port map (
+			Y => Sum, -- connect the Y output of this XORGATE to the 'Sum' signal
+            A => A,   -- connect the A input of this XORGATE to the 'A' signal
+			B => B    -- connect the B input of this XORGATE to the 'B' signal
+		);
+
+	-- instantiate an 'ANDGATE' model and call this instance 'sumGate'
+    carryGate: ANDGATE
+        port map (
+            Y => Carry, -- connect the Y output of this ANDGATE to the 'Carry' signal
+            A => A,     -- connect the A input of this ANDGATE to the 'A' signal
+            B => B      -- connect the B input of this ANDGATE to the 'B' signal
+		);
+
+end architecture default;
+----
+
+#### Parts of the Half Adder Model
+
+Let's break the half adder model we just created down a little more to help explain what each of the parts mean.
+
+##### Component Definition
+
+The component definitions describe all of the component used within a given VHDL model. In this example, the half adder uses both the XORGATE and ANDGATE models, so the architecture of the half adder must define the components.
+
+The component declaration simply tells the instantiating model what the interface is like between the model and its component models (ANDGATE and XORGATE) -- as such, it is the **entity** information of each of the models, but with the entity keyword replaced by the **component** keyword.
+
+Compare lines 17-23 of the half adder with the entity section for the ANDGATE model and see that they have the same information.
+
+
+
+##### Model Instantiation
+
+Instantiation is a complicated-sounding word that simply means 'create an instance of something', so don't get thrown just yet.
+
+We see lines 35-41 serve to create an instance of the XORGATE model we created before:
+
+[source,vhdl,linenums,start=35]
+----
+-- instantiate a 'XORGATE' model and call this instance 'sumGate'
+sumGate: XORGATE
+	port map (
+		Y => Sum, -- connect the Y output of this XORGATE to the 'Sum' signal
+		A => A,   -- connect the A input of this XORGATE to the 'A' signal
+		B => B    -- connect the B input of this XORGATE to the 'B' signal
+	);
+----
+
+On line 36, we see that we are creating an instance of the XORGATE model within the half adder named 'sumGate', or, to put it graphically:
+
+
+.The XORGATE model definition is instantiated with the name 'sumGate'.
+[#fig:half-adder-xor,pdfwidth=3in]
+image::half_adder_xor_instantiation.svg[Half Adder,50%]
+
+We can see this XORGATE instance's port map on lines 37-41. The port map simply tells the half adder model how to connect the ports defined in the XORGATE model to the signals in the half adder.
+
+If you look to the left of the '`\=>`', you will see the name of the port as defined in the XORGATE definition. To the right of the '`\=>`', you will see the name of the signal that the XORGATE-defined port connects to in side the half adder.
+
+.Signal mapping for the instantiated model.
+[#tab:hierarchical-xor-model,reftext='{table-caption} {chapter-number}.{counter:table-refnum}']
+[caption="Table {chapter-number}.{table-refnum}: "]
+[width=70%,options="header"]
+[cols="2,2"]
+|=======
+| XORGATE-defined Port | Half Adder Signal
+| Y                    | Sum
+| A                    | A
+| B                    | B
+|=======
+
+
+The process of defining what port connects to what signal is typically referred to as *mapping* the port -- hence the `port map (...)` section in the code. This mapping function allows us to map the port names of a model (`A`/`B`/`Y`) to the signal names within a higher order model.
+
+By instantiating the XORGATE model with a name, we could create many more instances of the XORGATE model with different names, and they would all function independently of one another, implementing the XORGATE logic on whatever connects to each instance's A,B, and Y ports.
+
+This same process is applied to the ANDGATE model used in the half adder code, resulting in a model like that shown in <<fig:half_adder_implementation>>.
+
+.The half adder implemented in VHDL.
+[#fig:half_adder_implementation,pdfwidth=3in]
+image::half_adder_implementation.svg[Half Adder,50%]
+
+### Creating a Testbench
+At this point, we have a half adder model comprised of XOR and AND gate models, but we haven't actually verified it's behavior -- something that can be tested with the help of a **testbench**.
+
+.A testbench is a model that has no ports and contains other models within it.
+[#fig:half_adder_tb,pdfwidth=5in]
+image::half_adder_tb.svg[Half Adder,50%]
+
+A testbench is a complicated-sounding name for a very simple construct -- it's just another model that contains the other model(s) to simulate.
+
+Look at <<fig:half_adder_tb>>, the testbench has no ports and contains the half adder we created earlier.
+
+Below is the code for the half adder testbench:
+
+[source,vhdl,linenums]
+----
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity half_adder_tb is
+    -- no entity ports for a testbench!
+end entity half_adder_tb;
+
+architecture default of half_adder_tb is
+    -- here we define the half adder component
+	-- (only components instantiated in this file need to be defined)
+	component HALF_ADDER is
+	    port (
+	        Sum : out std_logic;
+	        Carry : out std_logic;
+	        A : in std_logic;
+	        B : in std_logic -- <=no semicolon
+	    );
+	end component;
+
+    -- these signals only exist within this testbench
+	signal tb_A : std_logic;
+	signal tb_B : std_logic;
+	signal tb_Sum : std_logic;
+	signal tb_Carry : std_logic;
+
+begin
+
+	tb_A <= '0';
+	tb_B <= '0';
+
+    -- instantiate a HALF_ADDER model and call this instance 'ha'
+    ha: HALF_ADDER is
+	    port map (
+	        Sum   => tb_Sum,
+	        Carry => tb_Carry,
+	        A     => tb_A,
+	        B     => tb_B
+	    );
+
+end architecture default;
+----
+
+This testbench has some internal signals declared (see lines 21-24). It was mentioned before that a testbench does not have any ports, that is, external connections, but they will generally have internal signals.
+
+These internal signals allow us to connect testbench level signals to the half adder ports.
+
+
+.Testbench signal mapping.
+[#tab:testbench_signal_mapping,reftext='{table-caption} {chapter-number}.{counter:table-refnum}']
+[caption="Table {chapter-number}.{table-refnum}: "]
+[width=50%,options="header"]
+[cols="2,2"]
+|=======
+|Half adder port | Testbench signal
+|Sum             | tb_Sum
+|Carry           | tb_Carry
+|A               | tb_A
+|B               | tb_B
+|=======
+
+
+
+Looking at lines 28 & 29, you can see that the signals `tb_A` and `tb_B` are both given the value '0'. This has the effect of applying "00" to the input to the half adder. Try modifying these two lines and simulating the system for each of the four combinations. If your design is correct, you should come up with the following truth table:
+
+.Testbench truth table.
+[#tab:testbench_ha_truth_table,reftext='{table-caption} {chapter-number}.{counter:table-refnum}']
+[caption="Table {chapter-number}.{table-refnum}: "]
+[width=50%,options="header"]
+[cols="1,1,1,1"]
+|=======
+|tb_A | tb_B | tb_Sum | tb_Carry
+|0    | 0    | 0      | 0
+|0    | 1    | 1      | 0
+|1    | 0    | 1      | 0
+|1    | 1    | 0      | 1
+|=======
+
+
+
+There are many ways to create testbench stimuli, we will discuss other methods in later sections.

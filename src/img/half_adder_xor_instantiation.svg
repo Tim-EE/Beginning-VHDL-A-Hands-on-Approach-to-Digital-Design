@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50.842819mm"
+   height="35.378338mm"
+   viewBox="0 0 50.842819 35.378338"
+   version="1.1"
+   id="svg2526"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="half_adder_xor_instantiation.svg">
+  <defs
+     id="defs2520" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="79.097009"
+     inkscape:cy="37.12438"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="733"
+     inkscape:window-height="417"
+     inkscape:window-x="517"
+     inkscape:window-y="245"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata2523">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.126212,-83.519159)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.69815207px;line-height:0.01%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55817932"
+       x="60.183826"
+       y="86.382172"
+       id="text3159"><tspan
+         sodipodi:role="line"
+         x="60.183826"
+         y="86.382172"
+         id="tspan3157"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.55817932"><tspan
+           x="60.183826"
+           y="86.382172"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.95111132px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.55817932"
+           id="tspan3155">Half Adder</tspan></tspan></text>
+    <g
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_xor_instantiation.png"
+       transform="matrix(0.26458333,0,0,0.33674246,-227.19818,-96.047262)"
+       style="display:inline;stroke:#000000;stroke-width:0.88640523"
+       id="g14457">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14459"
+         d="m 1119.1968,576.93507 c 14.1732,7.08662 14.1732,21.25984 0,28.34646 21.2599,0 28.3465,0 35.4331,-14.17324 -7.0866,-14.17322 -14.1732,-14.17322 -35.4331,-14.17322 z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:3.14080572;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path14461"
+         d="m 1154.6299,591.10829 h 61.4172"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:3.14080572;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path14463"
+         d="m 1027.0708,584.02168 h 92.126"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:3.14080572;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path14465"
+         d="m 1027.0708,598.1949 h 92.126"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:3.14080572;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path14467"
+         d="m 1112.1102,579.29727 c 14.1732,5.90551 14.1732,17.71653 0,23.62204"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2.8671515;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50033164"
+       x="51.426525"
+       y="99.840286"
+       id="text3165"><tspan
+         sodipodi:role="line"
+         x="51.426525"
+         y="99.840286"
+         id="tspan3163"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.50033164"><tspan
+           x="51.426525"
+           y="99.840286"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666654px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.50033164"
+           id="tspan3161">A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50033164"
+       x="51.426525"
+       y="104.61335"
+       id="text3171"><tspan
+         sodipodi:role="line"
+         x="51.426525"
+         y="104.61335"
+         id="tspan3169"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.50033164"><tspan
+           x="51.426525"
+           y="104.61335"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666654px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.50033164"
+           id="tspan3167">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50033164"
+       x="83.207245"
+       y="102.0701"
+       id="text3177"><tspan
+         sodipodi:role="line"
+         x="83.207245"
+         y="102.0701"
+         id="tspan3175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.50033164"><tspan
+           x="83.207245"
+           y="102.0701"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666654px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.50033164"
+           id="tspan3173">Sum</tspan></tspan></text>
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_xor_instantiation.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#0000ff;stroke-width:0.53799999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect14568"
+       width="19.375017"
+       height="16.875002"
+       x="63.297611"
+       y="94.878998" />
+    <rect
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="C:\Temp\bk\intro_to_vhdl\src\markdown\img\half_adder_xor_instantiation.png"
+       y="87.378998"
+       x="50.172611"
+       height="31.25"
+       width="41.250011"
+       id="rect14570"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:0.537;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.61100005, 1.61100005;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.69815207px;line-height:0.01%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.55817932"
+       x="65.317162"
+       y="94.186897"
+       id="text3183"><tspan
+         sodipodi:role="line"
+         x="65.317162"
+         y="94.186897"
+         id="tspan3181"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.55817932"><tspan
+           x="65.317162"
+           y="94.186897"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;stroke-width:0.55817932"
+           id="tspan3179">sumGate</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="63.926525"
+       y="99.840286"
+       id="text3189"><tspan
+         sodipodi:role="line"
+         x="63.926525"
+         y="99.840286"
+         id="tspan3187"
+         style="stroke-width:0.50033164;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="63.926525"
+           y="99.840286"
+           style="font-size:3.38666654px;line-height:1.25;fill:#0000ff;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan3185">A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164;"
+       x="63.926525"
+       y="104.61335"
+       id="text3195"><tspan
+         sodipodi:role="line"
+         x="63.926525"
+         y="104.61335"
+         id="tspan3193"
+         style="stroke-width:0.50033164;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+           x="63.926525"
+           y="104.61335"
+           style="font-size:3.38666654px;line-height:1.25;fill:#0000ff;stroke-width:0.50033164;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+           id="tspan3191">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.00397968px;line-height:0.01%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.50033164"
+       x="78.984558"
+       y="102.11806"
+       id="text3201"><tspan
+         sodipodi:role="line"
+         x="78.984558"
+         y="102.11806"
+         id="tspan3199"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.50033164"><tspan
+           x="78.984558"
+           y="102.11806"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666654px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;stroke-width:0.50033164"
+           id="tspan3197">Y</tspan></tspan></text>
+  </g>
+</svg>

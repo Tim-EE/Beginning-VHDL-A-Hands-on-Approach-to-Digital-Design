@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="214.47968mm"
+   height="143.66371mm"
+   viewBox="0 0 214.47968 143.66372"
+   version="1.1"
+   id="svg5361"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="vhdl_sections.svg">
+  <defs
+     id="defs5355">
+    <clipPath
+       id="clipPath5960"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="393.87503"
+         x="131.25"
+         height="118.75001"
+         width="134.375"
+         id="rect5962"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:0.28200001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    </clipPath>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mendo"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mendo">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6450" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1MendYq"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1MendYq">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff00ff;fill-rule:evenodd;stroke:#ff00ff;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path11646" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5825"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mendo">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5823" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5829"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mendo">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5827" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5833"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1MendYq">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff00ff;fill-rule:evenodd;stroke:#ff00ff;stroke-width:1.00000003pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5831" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="-7.9791342"
+     inkscape:cy="270.63945"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0.3"
+     fit-margin-left="0.3"
+     fit-margin-right="0.3"
+     fit-margin-bottom="0.3"
+     inkscape:window-width="1299"
+     inkscape:window-height="790"
+     inkscape:window-x="91"
+     inkscape:window-y="132"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5358">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(12.360117,-12.516779)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808000;fill-opacity:1;stroke:none;stroke-width:0.28222224"
+       x="-12.163746"
+       y="45.227257"
+       id="text911"><tspan
+         sodipodi:role="line"
+         x="-12.163746"
+         y="45.227257"
+         id="tspan905"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.28222224"><tspan
+           x="-12.163746"
+           y="45.227257"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51555586px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#808000;stroke-width:0.28222224"
+           id="tspan903">Libraries allow for extended </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-12.163746"
+         y="50.871704"
+         id="tspan909"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.28222224"><tspan
+           x="-12.163746"
+           y="50.871704"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51555586px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#808000;stroke-width:0.28222224"
+           id="tspan907">functionality of the code.</tspan></tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       style="fill:none;stroke:#808000;stroke-width:0.46237671;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 201.57856,46.311527 H 74.856161 V 59.587732 H 201.57856 Z"
+       id="path6508"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.28222224"
+       x="-12.163746"
+       y="75.783508"
+       id="text921"><tspan
+         sodipodi:role="line"
+         x="-12.163746"
+         y="75.783508"
+         id="tspan915"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.28222224"><tspan
+           x="-12.163746"
+           y="75.783508"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51555586px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ff0000;stroke-width:0.28222224"
+           id="tspan913">Entity declares the inputs and </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-12.163746"
+         y="81.427956"
+         id="tspan919"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.28222224"><tspan
+           x="-12.163746"
+           y="81.427956"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51555586px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ff0000;stroke-width:0.28222224"
+           id="tspan917">outputs and their types.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.28222224"
+       x="-11.899163"
+       y="128.19914"
+       id="text901"><tspan
+         sodipodi:role="line"
+         x="-11.899163"
+         y="128.19914"
+         id="tspan895"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.28222224"><tspan
+           x="-11.899163"
+           y="128.19914"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51555586px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ff00ff;stroke-width:0.28222224"
+           id="tspan893">Architecture defines the logic </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-11.899163"
+         y="133.84358"
+         id="tspan899"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.28222224"><tspan
+           x="-11.899163"
+           y="133.84358"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51555586px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ff00ff;stroke-width:0.28222224"
+           id="tspan897">behavior internal to the model</tspan></tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path6528"
+       d="M 201.57856,66.503987 H 74.856161 V 114.65778 H 201.57856 Z"
+       style="fill:none;stroke:#ff0000;stroke-width:0.48200002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       style="fill:none;stroke:#ff00ff;stroke-width:0.48200002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 201.57856,126.80007 H 74.856161 l -10e-7,28.51151 h 126.7224 z"
+       id="path6532"
+       inkscape:connector-curvature="0" />
+    <g
+       font-size="14px"
+       id="g168"
+       style="font-size:14px;font-family:monospace"
+       transform="matrix(0.3541181,0,0,0.3541181,63.569375,12.816779)">
+      <!-- this is just a test -->
+      <text
+         x="35"
+         y="14"
+         xml:space="preserve"
+         id="text4"><tspan
+           font-style="italic"
+           id="tspan2"
+           style="font-style:italic;fill:#408080">-- (this is a VHDL comment)</tspan></text>
+      <text
+         x="35"
+         y="33"
+         xml:space="preserve"
+         id="text6" />
+      <text
+         x="35"
+         y="52"
+         xml:space="preserve"
+         id="text10"><tspan
+           font-style="italic"
+           id="tspan8"
+           style="font-style:italic;fill:#408080">-- (this is a VHDL comment)</tspan></text>
+      <text
+         x="35"
+         y="71"
+         xml:space="preserve"
+         id="text12" />
+      <text
+         x="35"
+         y="90"
+         xml:space="preserve"
+         id="text16"><tspan
+           font-style="italic"
+           id="tspan14"
+           style="font-style:italic;fill:#408080">-- import std_logic from the IEEE library</tspan></text>
+      <text
+         x="35"
+         y="109"
+         xml:space="preserve"
+         id="text22"><tspan
+   font-weight="bold"
+   id="tspan18"
+   style="font-weight:bold;fill:#008000">library</tspan> <tspan
+   font-weight="bold"
+   id="tspan20"
+   style="font-weight:bold;fill:#0000ff">IEEE</tspan>;</text>
+      <text
+         x="35"
+         y="128"
+         xml:space="preserve"
+         id="text30"><tspan
+   font-weight="bold"
+   id="tspan24"
+   style="font-weight:bold;fill:#008000">use</tspan> <tspan
+   font-weight="bold"
+   id="tspan26"
+   style="font-weight:bold;fill:#0000ff">IEEE.std_logic_1164.</tspan><tspan
+   font-weight="bold"
+   id="tspan28"
+   style="font-weight:bold;fill:#008000">all</tspan>;</text>
+      <text
+         x="35"
+         y="147"
+         xml:space="preserve"
+         id="text32" />
+      <text
+         x="35"
+         y="166"
+         xml:space="preserve"
+         id="text40"><tspan
+   font-weight="bold"
+   id="tspan34"
+   style="font-weight:bold;fill:#008000">entity</tspan> <tspan
+   font-weight="bold"
+   id="tspan36"
+   style="font-weight:bold;fill:#0000ff">ANDGATE</tspan> <tspan
+   font-weight="bold"
+   id="tspan38"
+   style="font-weight:bold;fill:#008000">is</tspan></text>
+      <text
+         x="35"
+         y="185"
+         xml:space="preserve"
+         id="text44">    <tspan
+   font-weight="bold"
+   id="tspan42"
+   style="font-weight:bold;fill:#008000">port</tspan> (</text>
+      <text
+         x="35"
+         y="204"
+         xml:space="preserve"
+         id="text52">        Y <tspan
+   id="tspan46"
+   style="fill:#666666">:</tspan> <tspan
+   font-weight="bold"
+   id="tspan48"
+   style="font-weight:bold;fill:#008000">out</tspan> <tspan
+   id="tspan50"
+   style="fill:#b00040">std_logic</tspan>;</text>
+      <text
+         x="35"
+         y="223"
+         xml:space="preserve"
+         id="text60">        A <tspan
+   id="tspan54"
+   style="fill:#666666">:</tspan> <tspan
+   font-weight="bold"
+   id="tspan56"
+   style="font-weight:bold;fill:#008000">in</tspan> <tspan
+   id="tspan58"
+   style="fill:#b00040">std_logic</tspan>;</text>
+      <text
+         x="35"
+         y="242"
+         xml:space="preserve"
+         id="text70">        B <tspan
+   id="tspan62"
+   style="fill:#666666">:</tspan> <tspan
+   font-weight="bold"
+   id="tspan64"
+   style="font-weight:bold;fill:#008000">in</tspan> <tspan
+   id="tspan66"
+   style="fill:#b00040">std_logic</tspan> <tspan
+   font-style="italic"
+   id="tspan68"
+   style="font-style:italic;fill:#408080">-- &lt;=no semicolon</tspan></text>
+      <text
+         x="35"
+         y="261"
+         xml:space="preserve"
+         id="text72">    );</text>
+      <text
+         x="35"
+         y="280"
+         xml:space="preserve"
+         id="text80"><tspan
+   font-weight="bold"
+   id="tspan74"
+   style="font-weight:bold;fill:#008000">end</tspan> <tspan
+   font-weight="bold"
+   id="tspan76"
+   style="font-weight:bold;fill:#008000">entity</tspan> <tspan
+   font-weight="bold"
+   id="tspan78"
+   style="font-weight:bold;fill:#0000ff">ANDGATE</tspan>;</text>
+      <text
+         x="35"
+         y="299"
+         xml:space="preserve"
+         id="text82" />
+      <text
+         x="35"
+         y="318"
+         xml:space="preserve"
+         id="text86"><tspan
+           font-style="italic"
+           id="tspan84"
+           style="font-style:italic;fill:#408080">-- this is the architecture</tspan></text>
+      <text
+         x="35"
+         y="337"
+         xml:space="preserve"
+         id="text98"><tspan
+   font-weight="bold"
+   id="tspan88"
+   style="font-weight:bold;fill:#008000">architecture</tspan> <tspan
+   font-weight="bold"
+   id="tspan90"
+   style="font-weight:bold;fill:#0000ff">and1</tspan> <tspan
+   font-weight="bold"
+   id="tspan92"
+   style="font-weight:bold;fill:#008000">of</tspan> <tspan
+   font-weight="bold"
+   id="tspan94"
+   style="font-weight:bold;fill:#0000ff">ANDGATE</tspan> <tspan
+   font-weight="bold"
+   id="tspan96"
+   style="font-weight:bold;fill:#008000">is</tspan></text>
+      <text
+         x="35"
+         y="356"
+         xml:space="preserve"
+         id="text102"><tspan
+           font-weight="bold"
+           id="tspan100"
+           style="font-weight:bold;fill:#008000">begin</tspan></text>
+      <text
+         x="35"
+         y="375"
+         xml:space="preserve"
+         id="text110">    Y <tspan
+   id="tspan104"
+   style="fill:#666666">&lt;</tspan><tspan
+   id="tspan106"
+   style="fill:#666666">=</tspan> A <tspan
+   font-weight="bold"
+   id="tspan108"
+   style="font-weight:bold;fill:#008000">and</tspan> B;</text>
+      <text
+         x="35"
+         y="394"
+         xml:space="preserve"
+         id="text118"><tspan
+   font-weight="bold"
+   id="tspan112"
+   style="font-weight:bold;fill:#008000">end</tspan> <tspan
+   font-weight="bold"
+   id="tspan114"
+   style="font-weight:bold;fill:#008000">architecture</tspan> <tspan
+   font-weight="bold"
+   id="tspan116"
+   style="font-weight:bold;fill:#0000ff">and1</tspan>;</text>
+      <text
+         x="35"
+         y="413"
+         xml:space="preserve"
+         id="text120" />
+      <rect
+         x="28"
+         y="0"
+         width="1"
+         height="404"
+         style="fill:#d2d2d2;stroke:none;stroke-width:0"
+         id="rect122" />
+      <g
+         font-size="14px"
+         id="g166"
+         style="font-size:14px;font-family:monospace">
+        <text
+           x="5"
+           y="14"
+           style="fill:#6b6b6b"
+           id="text124">1</text>
+        <text
+           x="5"
+           y="33"
+           style="fill:#6b6b6b"
+           id="text126">2</text>
+        <text
+           x="5"
+           y="52"
+           style="fill:#6b6b6b"
+           id="text128">3</text>
+        <text
+           x="5"
+           y="71"
+           style="fill:#6b6b6b"
+           id="text130">4</text>
+        <text
+           x="5"
+           y="90"
+           style="fill:#6b6b6b"
+           id="text132">5</text>
+        <text
+           x="5"
+           y="109"
+           style="fill:#6b6b6b"
+           id="text134">6</text>
+        <text
+           x="5"
+           y="128"
+           style="fill:#6b6b6b"
+           id="text136">7</text>
+        <text
+           x="5"
+           y="147"
+           style="fill:#6b6b6b"
+           id="text138">8</text>
+        <text
+           x="5"
+           y="166"
+           style="fill:#6b6b6b"
+           id="text140">9</text>
+        <text
+           x="5"
+           y="185"
+           style="fill:#6b6b6b"
+           id="text142">10</text>
+        <text
+           x="5"
+           y="204"
+           style="fill:#6b6b6b"
+           id="text144">11</text>
+        <text
+           x="5"
+           y="223"
+           style="fill:#6b6b6b"
+           id="text146">12</text>
+        <text
+           x="5"
+           y="242"
+           style="fill:#6b6b6b"
+           id="text148">13</text>
+        <text
+           x="5"
+           y="261"
+           style="fill:#6b6b6b"
+           id="text150">14</text>
+        <text
+           x="5"
+           y="280"
+           style="fill:#6b6b6b"
+           id="text152">15</text>
+        <text
+           x="5"
+           y="299"
+           style="fill:#6b6b6b"
+           id="text154">16</text>
+        <text
+           x="5"
+           y="318"
+           style="fill:#6b6b6b"
+           id="text156">17</text>
+        <text
+           x="5"
+           y="337"
+           style="fill:#6b6b6b"
+           id="text158">18</text>
+        <text
+           x="5"
+           y="356"
+           style="fill:#6b6b6b"
+           id="text160">19</text>
+        <text
+           x="5"
+           y="375"
+           style="fill:#6b6b6b"
+           id="text162">20</text>
+        <text
+           x="5"
+           y="394"
+           style="fill:#6b6b6b"
+           id="text164">21</text>
+      </g>
+    </g>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path6510"
+       d="M 74.663602,55.004332 44.533295,49.575803"
+       style="fill:none;stroke:#808000;stroke-width:0.48200002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.48200002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 74.767522,83.932027 42.82366,80.528928"
+       id="path6530"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path6534"
+       d="M 74.844544,132.7362 58.00252,132.29349"
+       style="fill:none;stroke:#ff00ff;stroke-width:0.48200002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
