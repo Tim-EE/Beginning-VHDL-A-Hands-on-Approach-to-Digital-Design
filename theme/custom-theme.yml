@@ -113,9 +113,10 @@ title_page:
   logo:
     top: 10%
   title:
-    top: 55%
+    top: 65%
     font_size: $heading_h1_font_size
-    font_color: 999999
+#    font_color: 999999
+    font_color: 7f7f7f
     line_height: 0.9
   subtitle:
     font_size: $heading_h3_font_size
