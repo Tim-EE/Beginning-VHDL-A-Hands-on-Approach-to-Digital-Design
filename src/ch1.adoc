@@ -61,25 +61,7 @@ While this AND gate may be a fairly trivial example, it serves to show some impo
 [source,vhdl,linenums]
 .`ANDGATE.vhd`
 ----
--- (this is a VHDL comment)
-
--- import std_logic from the IEEE library
-library IEEE;
-use IEEE.std_logic_1164.all;
-
-entity ANDGATE is
-    port (
-        Y : out std_logic;
-        A : in std_logic;
-        B : in std_logic -- <=no semicolon
-    );
-end entity ANDGATE;
-
--- this is the architecture
-architecture and1 of ANDGATE is
-begin
-    Y <= A and B;
-end architecture and1;
+include::../sim/ANDGATE.vhd[]
 ----
 
 NOTE: You will notice that each statement has a semicolon after it. Note, however, that the last entry in the port section does not have a semicolon after it -- it is taken care of by the closing of the port declaration.
@@ -247,24 +229,9 @@ A half adder has a sum and carry term. Easily enough, the sum term is 1 if the i
 ### Creating the XOR Model
 
 [source,vhdl,linenums]
+.`XORGATE.vhd`
 ----
--- import std_logic from the IEEE library
-library IEEE;
-use IEEE.std_logic_1164.all;
-
-entity XORGATE is
-    port (
-        Y : out std_logic;
-        A : in std_logic;
-        B : in std_logic -- <=no semicolon
-    );
-end entity XORGATE;
-
--- this is the architecture
-architecture xor1 of XORGATE is
-begin
-    Y <= A xor B;
-end architecture and1;
+include::../sim/XORGATE.vhd[]
 ----
 
 Take a moment and compare the XOR gate code to that of the AND gate we defined in the previous section. Notice that the entity names are different, yet they have the same port definitions -- this is because they are both two-input, one output gates. We could, however, have named the ports whatever we want, though it is a good idea to keep a common representation for similar devices for your own understanding.
@@ -277,59 +244,11 @@ It is the `XOR` operation on line 16 that changes the behavior from the AND gate
 Now that we have both the XOR and AND models created, we need to combine them to form the half adder model -- this is where the hierarchical modeling comes in to play.
 
 [source,vhdl,linenums]
+.`HALF_ADDER.vhd`
 ----
--- import std_logic from the IEEE library
-library IEEE;
-use IEEE.std_logic_1164.all;
-
-entity HALF_ADDER is
-    port (
-        Sum : out std_logic;
-        Carry : out std_logic;
-        A : in std_logic;
-        B : in std_logic -- <=no semicolon
-    );
-end entity HALF_ADDER;
-
--- this is the architecture
-architecture default of HALF_ADDER is
-    -- here we define the ANDGATE component - essentially just the entity information
-    component ANDGATE is
-        port (
-            Y : out std_logic;
-            A : in std_logic;
-            B : in std_logic
-        );
-    end component;
-
-	-- here we define the XORGATE component - essentially just the entity information
-	component XORGATE is
-        port (
-            Y : out std_logic;
-            A : in std_logic;
-            B : in std_logic
-        );
-    end component;
-begin
-
-    -- instantiate a 'XORGATE' model and call this instance 'sumGate'
-    sumGate: XORGATE
-        port map (
-			Y => Sum, -- connect the Y output of this XORGATE to the 'Sum' signal
-            A => A,   -- connect the A input of this XORGATE to the 'A' signal
-			B => B    -- connect the B input of this XORGATE to the 'B' signal
-		);
-
-	-- instantiate an 'ANDGATE' model and call this instance 'sumGate'
-    carryGate: ANDGATE
-        port map (
-            Y => Carry, -- connect the Y output of this ANDGATE to the 'Carry' signal
-            A => A,     -- connect the A input of this ANDGATE to the 'A' signal
-            B => B      -- connect the B input of this ANDGATE to the 'B' signal
-		);
-
-end architecture default;
+include::../sim/HALF_ADDER.vhd[]
 ----
+
 
 #### Parts of the Half Adder Model
 
@@ -410,47 +329,9 @@ Look at <<fig:half_adder_tb>>, the testbench has no ports and contains the half 
 Below is the code for the half adder testbench:
 
 [source,vhdl,linenums]
+.`HALF_ADDER_TB.vhd`
 ----
-library IEEE;
-use IEEE.std_logic_1164.all;
-
-entity half_adder_tb is
-    -- no entity ports for a testbench!
-end entity half_adder_tb;
-
-architecture default of half_adder_tb is
-    -- here we define the half adder component
-	-- (only components instantiated in this file need to be defined)
-	component HALF_ADDER is
-	    port (
-	        Sum : out std_logic;
-	        Carry : out std_logic;
-	        A : in std_logic;
-	        B : in std_logic -- <=no semicolon
-	    );
-	end component;
-
-    -- these signals only exist within this testbench
-	signal tb_A : std_logic;
-	signal tb_B : std_logic;
-	signal tb_Sum : std_logic;
-	signal tb_Carry : std_logic;
-
-begin
-
-	tb_A <= '0';
-	tb_B <= '0';
-
-    -- instantiate a HALF_ADDER model and call this instance 'ha'
-    ha: HALF_ADDER is
-	    port map (
-	        Sum   => tb_Sum,
-	        Carry => tb_Carry,
-	        A     => tb_A,
-	        B     => tb_B
-	    );
-
-end architecture default;
+include::../sim/HALF_ADDER_TB.vhd[]
 ----
 
 This testbench has some internal signals declared (see lines 21-24). It was mentioned before that a testbench does not have any ports, that is, external connections, but they will generally have internal signals.
@@ -472,8 +353,11 @@ These internal signals allow us to connect testbench level signals to the half a
 |=======
 
 
+Looking at lines 37-52, a `process` is used to control the inputs to the half adder by setting `tb_A` and `tb_B` to various values. We'll go more in depth on what process is later, however, for now, simply understand that this process initially sets `tb_A` and `tb_B` both both to '0'. These signals are toggled through all of the input combinations, changing state every 5ns.
 
-Looking at lines 28 & 29, you can see that the signals `tb_A` and `tb_B` are both given the value '0'. This has the effect of applying "00" to the input to the half adder. Try modifying these two lines and simulating the system for each of the four combinations. If your design is correct, you should come up with the following truth table:
+// Looking at lines 28 & 29, you can see that the signals `tb_A` and `tb_B` are both given the value '0'. This has the effect of applying "00" to the input to the half adder. Try modifying these two lines and simulating the system for each of the four combinations.
+
+If your design is correct, you should come up with the following truth table:
 
 .Testbench truth table.
 [#tab:testbench_ha_truth_table,reftext='{table-caption} {chapter-number}.{counter:table-refnum}']
@@ -487,7 +371,3 @@ Looking at lines 28 & 29, you can see that the signals `tb_A` and `tb_B` are bot
 |1    | 0    | 1      | 0
 |1    | 1    | 0      | 1
 |=======
-
-
-
-There are many ways to create testbench stimuli, we will discuss other methods in later sections.

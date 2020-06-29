@@ -13,6 +13,8 @@ Tim Shuck
 // :source-highlighter: rouge
 :pygments-style: default
 :imagesdir: ./img
+:title-page:
+:title-page-background-image: image:title_bg.svg[]
 :table-stripes: even
 :pdf-page-layout: portrait
 // :pdf-page-margin: [1in, 0.8in]
@@ -20,10 +22,7 @@ Tim Shuck
 :pdf-style: ../theme/custom-theme.yml
 :toclevels: 5
 // :stem: latexmath
-
 :stem:
-:title-page-background-image: ./img/title-bg.jpg
-
 
 
 
@@ -31,3 +30,11 @@ include::introduction.adoc[leveloffset=+1]
 
 include::ch1.adoc[leveloffset=+1]
 // include::ch1.adoc[leveloffset=+1]
+
+[appendix]
+include::appendix_using_GHDL.adoc[leveloffset=+1]
+
+
+
+
+

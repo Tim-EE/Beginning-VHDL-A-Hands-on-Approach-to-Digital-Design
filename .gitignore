@@ -1,0 +1,5 @@
+*.pdf
+*.html
+work/
+
+*.cf # ignore GHDL library files
